@@ -12,7 +12,7 @@
   
   .page {
 	min-width: 730px;
-	width: 80%;
+	max-width: 1200px;
 	margin: auto;
   }
   
@@ -30,19 +30,22 @@
   
   .menu-header-logo {
 	background: rgb(0, 123, 255);
+	padding-left: 0px;
   }
   
   .menu-header-logo-shopname {
 	font-size: 12px;
 	color: white;
 	padding: 25px 0px 10px 0px;
-	padding-left: 30px;
+	padding-left: 50px;
+	width: 75%;
+	display: inline-block;
   }
   
 
   
   .menu-container {
-	max-height: 80vh;
+	max-height: 87vh;
 	overflow-x: hidden;
 	overflow-y: scroll;
   }
@@ -51,7 +54,7 @@
 	width: 6px;
 	background-color: #f5f5f5;
   }
-  
+   
   #scroll::-webkit-scrollbar-thumb {
 	background-color: rgb(187, 187, 187);
 	border-radius: 5px;
@@ -63,7 +66,7 @@
   }
   
   .menu-container-label {
-	padding: 0 20px;
+	padding: 0 20px 0 40px;
   }
   
   .menu-container-item {
@@ -75,7 +78,7 @@
   }
   .menu-container-item-name {
 	padding: 10px;
-	font-size: 16px;
+	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: rgb(0, 123, 255);
@@ -105,40 +108,76 @@
 
   
   .search {
-	width: 80%;
-	position: relative;
-	display: flex;
-	margin: auto;
-  }
-  
-  .searchTerm {
-	width: 100%;
-	border: 3px solid #00B4CC;
-	border-right: none;
-	padding: 3px;
-	border-radius: 5px 0 0 5px;
-	outline: none;
-	color: #9DBFAF;
-	margin-bottom: 10px;
-	font-size: 12px;
-  }
-  
-  .searchTerm:focus{
-	color: rgb(0, 123, 255);
+	width: 20%;
+	display: inline-block;
   }
   
   .searchButton {
 	width: 40px;
 	height: 24px;
-	border: 1px solid #00B4CC;
-	background: #00B4CC;
-	text-align: center;
+	border: 1px solid rgb(0, 123, 255);
+	background: rgb(0, 123, 255);
 	color: #fff;
 	border-radius: 0 5px 5px 0;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 30px;
   }
-  
+
+
+  .search-form{
+	background: rgba(138, 137, 137, 0.7);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: none;
+  }
+
+  .search-form-content{
+	width: 40%;
+	margin: auto;
+	font-size: 16px;
+	margin-top: 50px;
+  }
+  .search-form-content input{
+	width: 65%;
+	padding: 20px;
+  }
+
+  .search-form-content .submit	{
+	width: 24%;
+	margin-left: -5px;
+	padding: 20px;
+	cursor: pointer;
+	background: rgb(0, 123, 255);
+	border: 1px solid rgb(0, 123, 255);
+	color: white;
+  }
+  .search-form-content .submit:hover{
+	background: whitesmoke;
+	color: rgb(0, 123, 255);
+	transition: 0.5s;
+  }
+
+  .cancel{
+	width: 10%;
+	margin: auto;
+  }
+
+  .cancel-btn{
+	padding: 10px;
+	border-radius: 100px;
+	margin-top: 50px;
+	border: none;
+	cursor: pointer;
+  }
+
+  .cancel-btn:hover{
+	background: rgb(0, 123, 255);
+	color: white;
+	transition: 0.5s;
+	box-shadow: 1px 1px 1px 3px rgb(0, 123, 255, 0.3);
+  }
+
   
 
   .right {
