@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/46b92eec2a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="search-form" id="search-form">
+        <div class="form-search" id="hide-search">
+            <div class="search-form-content">
+
+                <form action="">
+                  <input type="text" placeholder="Search...">
+                  <button class="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+      </div>
+  </div>
+    <div class="page">
+      <div class="wrapper">
+        <div class="container">
+          <div class="main">
+            <div class="left">
+              <div class="left-header">
+                <div class="head-content">
+                  <div class="tital">TRUNG TÂM HỖ TRỢ</div>
+                  <div class="tital-descrips">Trang hỗ trợ người dùng</div>
+                </div>
+                <div class="search">
+                  <button class="search-btn" id="show-search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="left-content" id="scroll">
+                <div class="menu">
+                  <div class="menu-label">
+                    <div class="menu-tital"><p>Giới thiệu</p></div>
+                    <div class="menu-content">
+                      <ul>
+                        <li>Giới thiệu SupperFood</li>
+                        <li>Về ứng dụng điện thoại</li>
+                        <li>Hệ thống fanpage</li>
+                        <li>Tổng quan website</li>
+                        <li>Chính sách bảo mật</li>
+                        <li>Tổng quan website</li>
+                        <li>Hợp tác cùng chúng tôi</li>
+                        <li>Giới thiệu bạn bè</li>
+                        <li>Chính sách VIP</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="menu-label">
+                    <div class="menu-tital"><p>Hướng dẫn</p></div>
+                    <div class="menu-content">
+                      <ul>
+                        <li>Hướng dẫn tạo tài khoản</li>
+                        <li>Hướng dẫn mua hàng</li>
+                        <li>Hướng dẫn liên kết tài khoản</li>
+                        <li>Hướng dẫn thanh toán</li>
+                        <li>Hướng dẫn bảo quản thực phẩm</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="menu-label">
+                    <div class="menu-tital"><p>Ưu đãi</p></div>
+                    <div class="menu-content">
+                      <ul>
+                        <li>Ưu đãi khi thanh toán qua VNPAY-QR</li>
+                        <li>Tải VNPAY-săn quà cùng SupperFood</li>
+                        <li>Nhận voucher 50% khi thanh toán bằng thẻ ATM</li>
+                        <li>Tải ví VNPAY-thưởng 9 tầng mây</li>
+                        <li>Giảm 15% khi thanh toán qua ShoppePAY</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="menu-label">
+                    <div class="menu-tital"><p>Cam kết</p></div>
+                    <div class="menu-content">
+                      <ul>
+                        <li>Cam kết đúng giá đúng chất lượng</li>
+                        <li>Nhanh nhẹn và chu đáo</li>
+                        <li>Hỗ trợ online</li>
+                        <li>Phục vụ mọi lúc</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="left-footer">
+                <!-- <p>Design by HoanLe</p> -->
+              </div>
+            </div>
+            <div class="right">
+              <div class="right-container"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+  </body>
+  <script language="javascript">
+ 
+    document.getElementById("show-search").onclick = function () {
+        document.getElementById("search-form").style.display = 'block';
+    };
+
+    document.getElementById("hide-search").onclick = function () {
+        document.getElementById("search-form").style.display = 'none';
+    };
+
+</script>
+</html>
